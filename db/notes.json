@@ -1,0 +1,15 @@
+[
+    {
+        "note_id":1,
+        "title":"Call Bank on Monday",
+        "text":"Call the Bank to withdraw and deposit some money"
+    },
+    
+    {
+        "note_id":2,
+        "title":"Test Title",
+        "text":"Test text"
+    }
+    
+    
+]
