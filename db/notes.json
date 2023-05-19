@@ -1,15 +1,32 @@
 [
     {
-        "note_id":1,
+        "note_id":"",
         "title":"Call Bank on Monday",
-        "text":"Call the Bank to withdraw and deposit some money"
+        "text":"Call the Bank to withdraw money for Home Loan"
+        
     },
     
     {
-        "note_id":2,
-        "title":"Test Title",
-        "text":"Test text"
-    }
+        "note_id":"",
+        "title":"Connect with Gretel",
+        "text":"Go to Gretel's house at 6 pm tomorrow to discuss about the practice"
+    },
     
+    {
+        "note_id":"",
+        "title":"Update the portal",
+        "text":"Update the homework portal of children"
+    },
+    
+    {
+        "note_id":"",
+        "title":"List out groceries",
+        "text":"Put a list of the groceries to buy"
+    },
+    {
+        "note_id":,
+        "title":"Pay the utility bills",
+        "text":"confirm the amount of the utility bill and pay them by 2 pm tomorrow"
+    }
     
 ]
