@@ -8,13 +8,13 @@ notes.get("/",(req,res)=>{
             console.log(error);
         }
         else{
-            return res.json(JSON.parse(data));
+             res.json(JSON.parse(data));
         }
     })
     });
 
     notes.post("/",(req,res)=>{
-
+        console.log("post received req.body =", req.body)
         const{title,text}=req.body;
         const newNote={
             note_id:uuidv4(),
@@ -26,9 +26,10 @@ notes.get("/",(req,res)=>{
                 console.log(error);
             }
             else{
+                console.log("in else");
                 const parsedData=JSON.parse(data);
                 parsedData.push(newNote);
-                fs.writeFile('./db/db/json',JSON.stringify(parsedData),(writeError)=>{
+                fs.writeFile('./db/notes.json',JSON.stringify(parsedData),(writeError)=>{
                     if(writeError){
                         console.log(error);
                     }

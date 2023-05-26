@@ -9,14 +9,16 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/api",api);
 app.use(express.static('public'));
 app.get("/",(req,res)=>{
-    return res.sendFile(path.join(_dirname,"/public/index.html"))
+    return res.sendFile(path.join(__dirname,"/public/index.html"))
 });
 app.get("/notes",(req,res)=>{
-    return res.sendFile(path.join(_dirname,"/public/notes.html"))
+    console.log("/notes received")
+     res.sendFile(path.join(__dirname,"/public/notes.html"))
 });
 app.get("*",(req,res)=>{
-    return res.sendFile(path.join(_dirname,"/public/index.html"))
+    return res.sendFile(path.join(__dirname,"/public/index.html"))
 });
+
 app.listen(PORT,()=>{
     console.log(`App is listening at http://localhost:${PORT}`)
 });
