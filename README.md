@@ -57,5 +57,8 @@ Design the HTML and javascript files for the frontend
 
 Link to the video file showing the execution of the file:
 
+Add the necessary changes to the Git repository:
+
+![image](https://github.com/Georgina5-2/Note-Taker/assets/122113060/a2a3f575-3aa1-435b-8b64-02915a5d09c7)
 
 
