@@ -68,8 +68,12 @@ Add the necessary changes to the Git repository:
 <img width="1676" alt="get_notes" src="https://github.com/Georgina5-2/Note-Taker/assets/122113060/31a848b8-d8aa-44cf-9a69-3818495a287b">
 
 
-Link to the video file showing the execution of the file:
+# Link to the video file showing the execution of the file:
 
 https://drive.google.com/file/d/1hyiLgfhIf6BPxz2X4Km9fLZEdsAvj_ZM/view
+
+# Link to the deployed file : 
+
+
 
 
