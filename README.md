@@ -55,10 +55,21 @@ Design the HTML and javascript files for the frontend
 
 ![image](https://github.com/Georgina5-2/Note-Taker/assets/122113060/796a6eaa-5248-4e26-be0a-7d6e9e6f4013)
 
-Link to the video file showing the execution of the file:
-
 Add the necessary changes to the Git repository:
 
 ![image](https://github.com/Georgina5-2/Note-Taker/assets/122113060/a2a3f575-3aa1-435b-8b64-02915a5d09c7)
+
+# Screenshots
+
+<img width="1915" alt="Home-page" src="https://github.com/Georgina5-2/Note-Taker/assets/122113060/f67c6a92-1000-4921-b294-fc5fb455925c">
+
+<img width="1898" alt="notes_taking" src="https://github.com/Georgina5-2/Note-Taker/assets/122113060/304d81a5-7431-46c3-9047-4e7a830df655">
+
+<img width="1676" alt="get_notes" src="https://github.com/Georgina5-2/Note-Taker/assets/122113060/31a848b8-d8aa-44cf-9a69-3818495a287b">
+
+
+Link to the video file showing the execution of the file:
+
+https://drive.google.com/file/d/1hyiLgfhIf6BPxz2X4Km9fLZEdsAvj_ZM/view
 
 
