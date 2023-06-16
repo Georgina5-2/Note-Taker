@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { v4: uuidv4 } = require("uuid");
+const generateUniqueId = require('generate-unique-id');
 const fs = require("fs");
 
 router.get("/", (req, res) => {
@@ -17,7 +17,7 @@ router.post("/", (req, res) => {
     console.log("post received req.body =", req.body);
     const { title, text } = req.body;
     const newNote = {
-        id: uuidv4(),
+        id: generateUniqueId({length: 6}),
         title,
         text,
     };
@@ -29,7 +29,7 @@ router.post("/", (req, res) => {
             console.log("in else");
             const parsedData = JSON.parse(data);
             parsedData.push(newNote);
-            fs.writeFile('./db/notes.json', JSON.stringify(parsedData), (writeError) => {
+            fs.writeFile('db/notes.json', JSON.stringify(parsedData), (writeError) => {
                 if (writeError) {
                     console.log(error);
                 }
@@ -49,13 +49,13 @@ router.post("/", (req, res) => {
 
 });
 
-router.delete("/:id", (req, res) => {
-    const noteToBeDeleted = req.params.id;
+router.delete("/:Id", (req, res) => {
+    const noteToBeDeleted = req.params.Id;
     fs.readFile("db/notes.json", (error, data) => {
         const parsedData = JSON.parse(data);
         const result = parsedData.filter((note) => note.id !== noteToBeDeleted);
         console.log("result",result);
-        fs.writeFile("db/notes.json", JSON.stringify(result), (error) => {
+        fs.writeFile("db/notes.json", JSON.stringify(result,null,4), (error) => {
             if (error) {
                 console.log(error);
             }
