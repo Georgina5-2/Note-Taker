@@ -74,6 +74,6 @@ https://drive.google.com/file/d/1hyiLgfhIf6BPxz2X4Km9fLZEdsAvj_ZM/view
 
 # Link to the deployed file : 
 
-
+https://georgina5-2.github.io/Note-Taker/
 
 
